@@ -125,6 +125,70 @@ JAVA/
 │   ├── Theme.java             # Color palettes and styling rules
 │   └── (Various custom UI components...)
 ```
+👨‍💻 Anshu – UI & Frontend Development
+
+This member was responsible for designing how the application looks and how users interact with it.
+
+Work Done:
+
+Created all screens using Java Swing:
+Login Screen
+Dashboard
+Balance Screen
+Transaction Screen
+Designed a dark theme UI for better appearance
+Styled buttons, labels, and layouts
+Used Theme.java to maintain consistent design across the app
+
+👉 In short:
+This member made sure the app looks clean, modern, and easy to use.
+
+🗄️ Kunal Sandhu – Database Management
+
+This member handled all the data-related work.
+
+Work Done:
+
+Set up SQLite database (bank.db)
+Created tables for storing:
+Username
+Password
+Balance
+Connected database to Java using JDBC
+Wrote SQL queries in DatabaseManager.java:
+Insert new user
+Check login
+Update balance
+Retrieve balance
+
+👉 In short:
+This member ensured that all user data is stored safely and correctly.
+
+⚙️ Nikhil Samanta – Application Logic & Functionality
+
+This member worked on how the system behaves and connects everything together.
+
+Work Done:
+
+Implemented banking operations:
+Deposit logic
+Withdraw logic (with balance checking)
+Connected UI buttons to backend functions
+Managed navigation between screens
+Controlled overall application flow using BankingApp.java
+
+👉 In short:
+This member made the app actually work — handling all actions and processes.
+
+Final Understanding
+
+This project is a combination of:
+
+Frontend (UI) → What user sees
+Backend (Logic) → How system works
+Database → Where data is stored
+
+All three parts are connected properly to create a complete banking application.
 
 ---
 
