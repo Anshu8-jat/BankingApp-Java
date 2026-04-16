@@ -125,71 +125,71 @@ JAVA/
 │   ├── Theme.java             # Color palettes and styling rules
 │   └── (Various custom UI components...)
 ```
-👨‍💻 Anshu – UI & Frontend Development
+👥 Team Contributions
 
-This member was responsible for designing how the application looks and how users interact with it.
+This project was developed collaboratively, with each member focusing on a key part of the application to ensure a well-structured and fully functional system.
 
-Work Done:
+👨‍💻 Anshu — UI & Frontend Development
 
-Created all screens using Java Swing:
+Responsible for designing the user interface and overall user experience of the application.
+
+Key Contributions:
+
+Developed all major screens using Java Swing:
 Login Screen
 Dashboard
 Balance Screen
 Transaction Screen
-Designed a dark theme UI for better appearance
-Styled buttons, labels, and layouts
-Used Theme.java to maintain consistent design across the app
+Designed and implemented a clean dark theme UI
+Styled components like buttons, labels, and layouts for better usability
+Created and maintained a consistent design system using Theme.java
 
-👉 In short:
-This member made sure the app looks clean, modern, and easy to use.
+Summary:
+Focused on making the application visually appealing, user-friendly, and easy to navigate.
 
-🗄️ Kunal Sandhu – Database Management
+🗄️ Kunal Sandhu — Database Management
 
-This member handled all the data-related work.
+Handled all database-related operations and data storage.
 
-Work Done:
+Key Contributions:
 
-Set up SQLite database (bank.db)
-Created tables for storing:
-Username
-Password
-Balance
-Connected database to Java using JDBC
-Wrote SQL queries in DatabaseManager.java:
-Insert new user
-Check login
-Update balance
-Retrieve balance
+Set up and managed the SQLite database (bank.db)
+Designed database schema to store:
+Usernames
+Passwords
+Account balances
+Integrated SQLite with Java using JDBC
+Implemented core database operations in DatabaseManager.java:
+User registration (auto-create account)
+Login validation
+Balance updates
+Data retrieval
 
-👉 In short:
-This member ensured that all user data is stored safely and correctly.
+Summary:
+Ensured reliable data storage and smooth interaction between the application and the database.
 
-⚙️ Nikhil Samanta – Application Logic & Functionality
+⚙️ Nikhil Samanta — Application Logic & Functionality
 
-This member worked on how the system behaves and connects everything together.
+Focused on implementing the core logic and connecting different parts of the application.
 
-Work Done:
+Key Contributions:
 
 Implemented banking operations:
-Deposit logic
-Withdraw logic (with balance checking)
-Connected UI buttons to backend functions
-Managed navigation between screens
-Controlled overall application flow using BankingApp.java
+Deposit functionality
+Withdraw functionality with balance validation
+Connected UI actions (buttons/events) with backend logic
+Managed navigation between different screens
+Controlled the overall application workflow using BankingApp.java
 
-👉 In short:
-This member made the app actually work — handling all actions and processes.
+Summary:
+Built the core functionality of the app, ensuring everything works correctly and efficiently.
 
-Final Understanding
+🔗 Final Overview
 
-This project is a combination of:
+This project is a complete integration of:
 
-Frontend (UI) → What user sees
-Backend (Logic) → How system works
-Database → Where data is stored
+Frontend (UI): Handles user interaction and visual design
+Backend (Logic): Manages application behavior and operations
+Database: Stores and retrieves user data securely
 
-All three parts are connected properly to create a complete banking application.
-
----
-
-*Created for educational purposes.*
+Together, these components create a smooth and functional banking application.
